@@ -1,5 +1,5 @@
 import React from 'react';
-import './CircleWithIcon.css'; // Create this CSS file for styling
+import './CircleWithIcon.css'; 
 import 'font-awesome/css/font-awesome.min.css';
 
 const CircleWithIcon = () => {
