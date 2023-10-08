@@ -1,4 +1,3 @@
-// controllers/formController.js
 
 const { validationResult } = require('express-validator');
 const FormModel = require('../models/formModel');
