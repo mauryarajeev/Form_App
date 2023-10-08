@@ -12,8 +12,8 @@
 }
 
 .square {
-  width: 150px; /* Default square size for larger screens */
-  height: 150px; /* Default square size for larger screens */
+  width: 150px; 
+  height: 150px; 
   background-color: #0abad1;
   color: white;
   display: flex;
@@ -48,17 +48,17 @@ p {
 /* Responsive styles for smaller screens (e.g., tablets) */
 @media screen and (max-width: 768px) {
   .square {
-    width: 80px; /* Adjust the square size for smaller screens */
-    height: 80px; /* Adjust the square size for smaller screens */
-    font-size: 16px; /* Adjust the font size for smaller screens */
+    width: 80px; 
+    height: 80px; 
+    font-size: 16px; 
   }
 }
 
 /* Responsive styles for even smaller screens (e.g., mobile phones) */
 @media screen and (max-width: 480px) {
   .square {
-    width: 60px; /* Adjust the square size for even smaller screens */
-    height: 60px; /* Adjust the square size for even smaller screens */
-    font-size: 14px; /* Adjust the font size for even smaller screens */
+    width: 60px;  
+    height: 60px; 
+    font-size: 14px; 
   }
 }
