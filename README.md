@@ -6,7 +6,7 @@
 # Installation
 Run the following command to clone the repository
 ```
-
+https://github.com/mauryarajeev/Form_App.git
 ```
 Go to ```client``` and ```backend``` directory to install packages
 ```
