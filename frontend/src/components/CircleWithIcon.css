@@ -4,14 +4,14 @@
   }
   
   .circle {
-    width: 100px; /* Adjust the size of the circle as needed */
-    height: 100px; /* Adjust the size of the circle as needed */
-    background-color: #828588; /* Adjust the background color as needed */
-    border-radius: 50%; /* Make it a circle */
+    width: 100px; 
+    height: 100px;
+    background-color: #828588; 
+    border-radius: 50%; 
     display: flex;
     justify-content: center; /* Horizontal alignment */
     align-items: center; /* Vertical alignment */
-    margin-right: 20px; /* Adjust spacing between circle and content */
+    margin-right: 20px; 
     border: 2px solid black;
   }
   
