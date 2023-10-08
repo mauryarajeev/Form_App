@@ -1,0 +1,113 @@
+/* Form.css */
+
+/* Base styles for larger screens */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center the form vertically on the screen */
+}
+
+.form {
+  width: 900px; /* Default form width for larger screens */
+  padding: 20px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Input fields */
+.input-group {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit button */
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+
+
+/* Add this CSS to your Form.css or a separate CSS file */
+.popup-card {
+  position: fixed;
+  top: 50%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.popup-card p {
+  margin-bottom: 10px;
+}
+
+.popup-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Responsive styles for smaller screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+  .form {
+    width: 80%;
+  }
+
+  /* Adjust input field sizes and padding */
+  input[type="text"],
+  input[type="email"] {
+    padding: 8px;
+  }
+
+  /* Adjust submit button padding */
+  .submit-button {
+    padding: 8px;
+  }
+}
+
+/* Responsive styles for even smaller screens (e.g., mobile phones) */
+@media screen and (max-width: 480px) {
+  .form {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .input-group {
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    padding: 6px;
+  }
+
+  .submit-button {
+    padding: 6px;
+  }
+}

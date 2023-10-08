@@ -1,0 +1,64 @@
+/* Base styles for larger screens */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between rows */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.square {
+  width: 150px; /* Default square size for larger screens */
+  height: 150px; /* Default square size for larger screens */
+  background-color: #0abad1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border: 2px solid black;
+  margin: 5px;
+  transition: transform 0.2s ease; /* Add a smooth transition for the transform property */
+}
+
+/* Add a hover effect to scale up the square */
+.square:hover {
+  transform: scale(1.1); /* Scale up to 110% of the original size on hover */
+}
+
+.icon {
+  color: white; /* Icon color */
+  font-size: 44px; /* Icon size */
+  margin-bottom: 8px; /* Adjust as needed to separate the icon and text */
+  text-align: center;
+  border: 1px white;
+}
+
+p {
+  color: rgb(29, 28, 28); /* Text color */
+  font-size: 14px; /* Text size */
+  text-align: center; /* Center-align text */
+  margin: 0; /* Remove default margin */
+}
+
+/* Responsive styles for smaller screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+  .square {
+    width: 80px; /* Adjust the square size for smaller screens */
+    height: 80px; /* Adjust the square size for smaller screens */
+    font-size: 16px; /* Adjust the font size for smaller screens */
+  }
+}
+
+/* Responsive styles for even smaller screens (e.g., mobile phones) */
+@media screen and (max-width: 480px) {
+  .square {
+    width: 60px; /* Adjust the square size for even smaller screens */
+    height: 60px; /* Adjust the square size for even smaller screens */
+    font-size: 14px; /* Adjust the font size for even smaller screens */
+  }
+}
