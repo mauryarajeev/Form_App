@@ -1,5 +1,5 @@
 import React from 'react';
-import './sidebar.css'; // Import your CSS file for styling
+import './sidebar.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faGraduationCap, faFilter, faBrain, faMoneyBillWave, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 
